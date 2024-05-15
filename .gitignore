@@ -1,0 +1,10 @@
+node_modules
+
+.envrc
+.env.local
+
+yarn.lock
+
+users-service
+transactions-service
+web-client

@@ -16,6 +16,10 @@ clone-transactions-service:
 clone-web-client:
 	git clone git@github.com:imperial-coders/poc-web-client.git
 
+install-deps:
+	cd ./poc-transactions-service && yarn &
+	cd ./poc-users-service && yarn &
+	cd ./poc-web-client && yarn &
 # TODO for each service
 # run
 # test

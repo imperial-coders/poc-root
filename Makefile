@@ -19,7 +19,8 @@ clone-web-client:
 install-deps:
 	cd ./poc-transactions-service && yarn &
 	cd ./poc-users-service && yarn &
-	cd ./poc-web-client && yarn &
+	cd ./poc-web-client && yarn 
+	
 # TODO for each service
 # run
 # test

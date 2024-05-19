@@ -21,6 +21,9 @@ install-deps:
 	cd ./poc-users-service && yarn &
 	cd ./poc-web-client && yarn 
 
+migrate: 
+	cd ./poc-transactions-service && yarn db.migrations.dev &
+
 seed:
 	cd ./poc-transactions-service && yarn db.seed &
 	

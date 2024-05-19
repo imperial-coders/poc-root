@@ -20,6 +20,9 @@ install-deps:
 	cd ./poc-transactions-service && yarn &
 	cd ./poc-users-service && yarn &
 	cd ./poc-web-client && yarn 
+
+seed:
+	cd ./poc-transactions-service && yarn db.seed &
 	
 # TODO for each service
 # run

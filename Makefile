@@ -26,6 +26,9 @@ migrate:
 
 seed:
 	cd ./poc-transactions-service && yarn db.seed &
+
+start:
+	echo 'Do startup stuff here'
 	
 # TODO for each service
 # run

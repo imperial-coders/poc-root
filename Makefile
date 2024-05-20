@@ -17,21 +17,27 @@ clone-web-client:
 	git clone git@github.com:imperial-coders/poc-web-client.git
 
 install-deps:
-	cd ./poc-transactions-service && yarn &
-	cd ./poc-users-service && yarn &
-	cd ./poc-web-client && yarn 
+	cd ./poc-transactions-service && yarn;
+	cd ./poc-users-service && yarn;
+	cd ./poc-web-client && yarn;
 
-migrate: 
+pull:
+	git pull &
+	cd ./poc-transactions-service && git pull &
+	cd ./poc-users-service && git pull &
+	cd ./poc-web-client && git pull 
+
+# DB
+db-migrate: 
 	cd ./poc-transactions-service && yarn db.migrations.dev &
+	cd ./poc-users-service && yarn db.migrations.dev
 
-seed:
+db-seed:
 	cd ./poc-transactions-service && yarn db.seed &
+	cd ./poc-users-service && yarn db.seed
 
-start:
-	echo 'Do startup stuff here'
-	
-# TODO for each service
 # run
-# test
-# codegen (if applicable)
-# install deps
+start:
+	cd ./poc-transactions-service && yarn start &
+	cd ./poc-users-service && yarn start &
+	cd ./poc-web-client && yarn dev

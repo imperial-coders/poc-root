@@ -5,8 +5,9 @@ This is the ROOT of the POC project. When you setup the POC, you should organize
 ### Prerequite steps
 
 1. Install Node (>= 18.5v) on your machine
+2. Install Yarn (>= 1.22.22)
 
-## Setup Steps
+## Setup / Run Steps
 
 1. Clone this repo down into your local machine, wherever you like to keep your code projects
 2. Once cloned, cd into the root of the project and run `make clone-projects`

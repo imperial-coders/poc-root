@@ -2,6 +2,12 @@
 
 This is the ROOT of the POC project. When you setup the POC, you should organize this project as the root of all other repos.
 
+The other repos include:
+
+- poc-users-service
+- poc-transactions-service
+- poc-web-client
+
 ### Prerequite steps
 
 1. Install Node (>= 18.5v) on your machine

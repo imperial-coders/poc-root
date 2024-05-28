@@ -7,6 +7,11 @@ clone-projects:
 	git clone git@github.com:imperial-coders/poc-users-service.git &
 	git clone git@github.com:imperial-coders/poc-web-client.git
 
+clone-project-via-https:
+	git clone https://github.com/imperial-coders/poc-transactions-service.git &
+	git clone https://github.com/imperial-coders/poc-users-service.git &
+	git clone https://github.com/imperial-coders/poc-web-client.git
+
 clone-users-service:
 	git clone git@github.com:imperial-coders/poc-users-service.git
 

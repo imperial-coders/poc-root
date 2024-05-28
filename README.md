@@ -20,7 +20,9 @@ The other repos include:
 3. Run `make install-deps`
 4. Run `make db-migrate` - This will migrate and seed data at the same time.
 5. In poc-web-client, create a .env.local file parralel with the .env file, then talk to Brett or Jason to get the values you need to paste in there. Auth will not work without those super secret values pasted in there.
-6. Run `make start` - This still doesn't work.
+6. Run `make start` (from the root of this project)
+
+Everything should be up and running! Go to localhost:3000 to see the Web client in action.
 
 ## Make Commands
 

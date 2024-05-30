@@ -30,7 +30,8 @@ install-deps:
 	cd ./poc-transactions-service && yarn;
 	cd ./poc-users-service && yarn;
 	cd ./poc-web-client && yarn;
-	cd ./poc-mobile-client && yarn;
+	cd ./poc-mobile-client && cd ./server && yarn;
+	cd ./poc-mobile-client && cd ./poc-mobile && yarn;
 
 pull:
 	git pull &

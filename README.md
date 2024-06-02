@@ -7,6 +7,7 @@ The other repos include:
 - poc-users-service
 - poc-transactions-service
 - poc-web-client
+- poc-mobile-client
 
 ### Prerequite steps
 

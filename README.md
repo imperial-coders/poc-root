@@ -24,6 +24,8 @@ The other repos include:
 
 Everything should be up and running! Go to localhost:3000 to see the Web client in action.
 
+You can also see the mobile app running in expo go. Scan the QR code in your terminal (shows up after running 'make start') to open the poc mobile app on your real phone, or use your IOS simulator on your Mac.
+
 ## Make Commands
 
 Checkout the Makefile to see the list of available commands
